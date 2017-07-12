@@ -1,0 +1,10 @@
+    .align {
+        text-align: center;
+        margin: 0 auto;
+        float: none;
+    }
+    
+    marquee {
+        color: red;
+        font-size: 30px;
+    }

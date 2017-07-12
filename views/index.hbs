@@ -1,0 +1,28 @@
+<link type="text/css" rel="stylesheet" href="/css/dashboard.css"/>
+<link tyoe="text/css" rel="stylesheet" href="/css/style.css"/>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Hapi Navigation</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="/">Home</a></li>
+            <li><a href="#">Settings</a></li>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">Help</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<div class="col-xs-2 align">
+      <form class="form-signin" action="/home" method="post">
+        <h2 class="form-signin-heading">Please sign in</h2>
+        <label for="inputName" class="sr-only">Email address</label>
+        <input type="text" id="inputName" name="name" class="form-control" placeholder="Email address" required="" autofocus=""><br/>
+        <label for="inputPassword" class="sr-only">Password</label>
+        <input type="password" id="inputPassword" name="pwd" class="form-control" placeholder="Password" required=""><br/>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+
+    </div>
